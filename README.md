@@ -67,7 +67,7 @@ Five models were fit to different routes with the following configurations and e
 
 
 * **Experiment with Advanced Models:**
-  Beyond ARIMA and Prophet, consider exploring models like **Exponential Smoothing (ETS)**, or **machine learning approaches** (e.g., LSTM, XGBoost). These can capture more complex temporal patterns, particularly for routes with higher forecast errors such as *Rapid Route*.
+  Beyond ARIMA, SARIMA and Prophet, consider exploring models like **Exponential Smoothing (ETS)**, or **machine learning approaches** (e.g., LSTM, XGBoost). These can capture more complex temporal patterns, particularly for routes with higher forecast errors such as *Rapid Route*.
 
 * **Incorporate External Factors:**
   Including relevant external variables (e.g., weather conditions, holidays, special events) as regressors can enhance the model’s ability to explain variability in ridership trends.
