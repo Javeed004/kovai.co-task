@@ -41,13 +41,31 @@ Five models were fit to different routes with the following configurations and e
 ![alt text](image-1.png)
 
 ## Insights  
-| Insight | Description | Real-world Implication |
-|----------|--------------|------------------------|
-| 1️⃣ Upward Trend | Ridership steadily increases over time. | Expand services, invest in infrastructure. |
-| 2️⃣ Annual Seasonality | Clear 12-month recurring pattern. | Schedule resources around predictable peaks. |
-| 3️⃣ Non-Stationary Series | Requires seasonal model handling trend & lag. | Apply SARIMA or Holt-Winters models. |
-| 4️⃣ Anomalies & Change Points | Sudden deviations detected. | Investigate external or operational events. |
-| 5️⃣ Forecasted Growth | Projected rise in next 2 years. | Supports strategic planning & budgeting. |
+Here’s a **concise version** of your insights — short, clear, and presentation-ready 👇
+
+---
+
+Perfect 👍 Here’s your **Insights + Actionable Recommendations** section — concise, professional, and ready to include in your report:
+
+---
+
+### Insights & Recommended Actions
+
+1. **Local Route:** Shows a steady upward trend →
+   **Action:** Plan for increased service frequency to meet rising commuter demand.
+`
+2. **Rapid Route:** Exhibits strong seasonality with monthly peaks →
+   **Action:** Adjust schedules and fleet allocation during high-demand months.
+
+3. **Light Rail:** Noticeable dip around Oct 2024 →
+   **Action:** Review potential operational issues or external disruptions during that period.
+
+4. **Stationarity:** Series is non-stationary (ADF p > 0.9) →
+   **Action:** Apply differencing or log transformation before model training.
+
+5. **Forecast:** SARIMA and Prophet predict gradual recovery and growth →
+   **Action:** Use forecasts for proactive capacity and budget planning.
+
 
 
 
