@@ -2,8 +2,10 @@
 
 ## Dataset Description  
 The dataset contains the following features:  
-- DateLocal  
-- RouteLight RailPeak Service  
+- Date
+- Local Route  
+- Light Rail  
+- Peak Service  
 - Rapid Route  
 - School  
 - Other  
