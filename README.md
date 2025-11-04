@@ -43,17 +43,6 @@ Five models were fit to different routes with the following configurations and e
 ![alt text](image-1.png)
 
 ## Insights  
-Here’s a **concise version** of your insights — short, clear, and presentation-ready 👇
-
----
-
-Perfect 👍 Here’s your **Insights + Actionable Recommendations** section — concise, professional, and ready to include in your report:
-
----
-
-Here’s a **concise, stakeholder-focused version** of your **Actionable Insights** section — written to clearly link data findings to strategic decisions 👇
-
----
 
 ### Actionable Insights for Stakeholders
 
