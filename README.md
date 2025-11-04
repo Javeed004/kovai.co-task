@@ -49,23 +49,26 @@ Perfect 👍 Here’s your **Insights + Actionable Recommendations** section —
 
 ---
 
-### Insights & Recommended Actions
+Here’s a **concise, stakeholder-focused version** of your **Actionable Insights** section — written to clearly link data findings to strategic decisions 👇
 
-1. **Local Route:** Shows a steady upward trend →
-   **Action:** Plan for increased service frequency to meet rising commuter demand.
-`
-2. **Rapid Route:** Exhibits strong seasonality with monthly peaks →
-   **Action:** Adjust schedules and fleet allocation during high-demand months.
+---
 
-3. **Light Rail:** Noticeable dip around Oct 2024 →
-   **Action:** Review potential operational issues or external disruptions during that period.
+### Actionable Insights for Stakeholders
 
-4. **Stationarity:** Series is non-stationary (ADF p > 0.9) →
-   **Action:** Apply differencing or log transformation before model training.
+1. **Increase Service Capacity on Local Routes**
+   Steady ridership growth indicates a need for capacity expansion or more frequent trips to maintain service quality and reduce overcrowding.
 
-5. **Forecast:** SARIMA and Prophet predict gradual recovery and growth →
-   **Action:** Use forecasts for proactive capacity and budget planning.
+2. **Optimize Scheduling for Rapid Routes**
+   Strong seasonal trends suggest aligning fleet availability and driver shifts with peak months to improve efficiency and minimize idle resources.
 
+3. **Investigate Light Rail Performance Drop (Oct 2024)**
+   A ridership decline during this period may point to operational disruptions or external factors; reviewing maintenance logs and passenger feedback could identify root causes.
+
+4. **Leverage Stable Time Series for Predictive Planning**
+   Since the data is stationary, stakeholders can rely on consistent trend patterns for accurate forecasting and data-driven decision-making.
+
+5. **Use Forecast Insights for Budget and Policy Decisions**
+   The projected upward trend in ridership can guide long-term investment planning, infrastructure upgrades, and policy formulation to meet future transport demand.
 
 
 
