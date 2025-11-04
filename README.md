@@ -8,6 +8,8 @@ The dataset contains the following features:
 - School  
 - Other  
 
+![alt text](image-9.png)
+
 The data spans different dates and includes counts or measures for each route category. The "DateLocal" feature was set as the index and the data was sorted based on it.
 
 ## Exploratory Data Analysis (EDA)  
@@ -39,11 +41,13 @@ Five ARIMA models were fit to different routes with the following configurations
 ![alt text](image-1.png)
 
 ## Insights  
-1. The peak service route exhibited the lowest forecasting error (MAE 85.38), suggesting a more stable and predictable pattern compared to other routes.  
-2. The rapid route showed the highest error (MAE 4305.61), indicating high variability or noise that the current ARIMA model struggled to capture.  
-3. Both Local Route and Light Rail share the same ARIMA order (10,0,1) but differ significantly in forecast accuracy, implying dataset-specific dynamics beyond model structure.  
-4. The stationarity test confirmed non-stationarity in most series, justifying the integration component (d) in ARIMA except for Local and Light Rail which used d=0.  
-5. Outliers and missing values were completely removed; alternative imputation or robust handling strategies could improve data integrity and model performance.
+| Insight | Description | Real-world Implication |
+|----------|--------------|------------------------|
+| 1️⃣ Upward Trend | Ridership steadily increases over time. | Expand services, invest in infrastructure. |
+| 2️⃣ Annual Seasonality | Clear 12-month recurring pattern. | Schedule resources around predictable peaks. |
+| 3️⃣ Non-Stationary Series | Requires seasonal model handling trend & lag. | Apply SARIMA or Holt-Winters models. |
+| 4️⃣ Anomalies & Change Points | Sudden deviations detected. | Investigate external or operational events. |
+| 5️⃣ Forecasted Growth | Projected rise in next 2 years. | Supports strategic planning & budgeting. |
 
 ## Recommendations for Future Model Improvements  
 - Explore additional preprocessing such as differencing, transformation (e.g., log), or seasonal decomposition to further stabilize the series.  
