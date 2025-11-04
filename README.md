@@ -30,14 +30,14 @@ Five ARIMA models were fit to different routes with the following configurations
 | Local Route    | ARIMA(10,0,1)   | 1929.28                   |
 | Light Rail     | ARIMA(10,0,1)   | 970.56                    |
 | Peak Service   | ARIMA(3,1,1)    | 85.38                     |
-| Rapid Route    | ARIMA(4,1,10)   | 4305.61                   |
+| Rapid Route    | SARIMA(4,0,10)   | 2203.35                 |
 | School         | ARIMA(4,1,8)    | 947.39                    |
 
 ## Forecasting for 7-days
 ![alt text](image-5.png)
 ![alt text](image-6.png)
 ![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](image-10.png)
 ![alt text](image-1.png)
 
 ## Insights  
