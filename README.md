@@ -23,7 +23,7 @@ The data spans different dates and includes counts or measures for each route ca
 - Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots were created for all target attributes to determine appropriate model orders.
 
 ## Model Development and Results  
-Five ARIMA models were fit to different routes with the following configurations and evaluation results:
+Five models were fit to different routes with the following configurations and evaluation results:
 
 | Route          | Model           | MAE (Mean Absolute Error) |
 |----------------|-----------------|---------------------------|
@@ -49,11 +49,16 @@ Five ARIMA models were fit to different routes with the following configurations
 | 4️⃣ Anomalies & Change Points | Sudden deviations detected. | Investigate external or operational events. |
 | 5️⃣ Forecasted Growth | Projected rise in next 2 years. | Supports strategic planning & budgeting. |
 
-## Recommendations for Future Model Improvements  
-- Explore additional preprocessing such as differencing, transformation (e.g., log), or seasonal decomposition to further stabilize the series.  
-- Consider more advanced forecasting techniques including seasonal ARIMA (SARIMA), exponential smoothing, or machine learning models like LSTM for complex patterns, especially for high-error routes like Rapid Route.  
-- Incorporate feature engineering such as external regressors (weather, holidays) if available to enhance model explanatory power.  
-- Use robust techniques for outlier detection and imputation rather than dropping data points to retain information.  
-- Conduct residual diagnostics and cross-validation to fine-tune model parameters and avoid overfitting.
+
+
+### Recommendations for Further Improvement
+
+
+* **Experiment with Advanced Models:**
+  Beyond ARIMA and Prophet, consider exploring models like **SARIMA**, **Exponential Smoothing (ETS)**, or **machine learning approaches** (e.g., LSTM, XGBoost). These can capture more complex temporal patterns, particularly for routes with higher forecast errors such as *Rapid Route*.
+
+* **Incorporate External Factors:**
+  Including relevant external variables (e.g., weather conditions, holidays, special events) as regressors can enhance the model’s ability to explain variability in ridership trends.
+
 
 ***
